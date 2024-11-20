@@ -59,7 +59,7 @@ h1 {
 p {
     font-size: 1.2em;
     margin-bottom: 15px;
-    color: white; /* Ensure paragraph text is white for visibility */
+    color: black; /* Ensure paragraph text is black for visibility */
 }
 
 /* Additional Text Styling (Your name and interests) */
