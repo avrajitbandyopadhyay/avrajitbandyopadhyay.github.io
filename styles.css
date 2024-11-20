@@ -265,3 +265,12 @@ section {
 .header-content p {
     color: white; /* Ensure that the introductory text stays white */
 }
+/* Ensure text color in 'About Me' section is dark */
+#about p {
+    color: #333; /* Dark color for 'About Me' text */
+}
+
+/* Ensure 'About Me' heading (h2) is also dark */
+#about h2 {
+    color: #333; /* Dark color for the 'About Me' section heading */
+}
