@@ -84,6 +84,12 @@ h2 {
     color: white; /* Ensure header text is white for visibility */
 }
 
+p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: white; /* Ensure paragraph text is white for visibility */
+}
+
 /* Social Links */
 .social-links a {
     color: white; /* Ensure social links are white */
