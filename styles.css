@@ -247,3 +247,21 @@ footer p {
         padding: 20px;
     }
 }
+/* Ensure normal text color for all sections (not white) */
+section {
+    color: #333; /* Dark text color for readability */
+}
+
+/* Specific section overrides (make text dark in all content sections) */
+#about p, #research p, #publications p, #future-research p, #hobbies p, #cv p, #contact p {
+    color: #333; /* Ensure text inside the sections stays dark */
+}
+
+/* Reset header text (name and interests) color */
+.header-content .name, .header-content .interests {
+    color: white; /* Keep the header text white */
+}
+
+.header-content p {
+    color: white; /* Ensure that the introductory text stays white */
+}
