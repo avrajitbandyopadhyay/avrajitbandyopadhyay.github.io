@@ -37,14 +37,14 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay for text visibility */
+    background-color: rgba(0, 0, 0, 0.4); /* Lighter dark overlay */
     z-index: 1;
 }
 
 /* Header Content Styling */
 .header-content {
     position: relative;
-    z-index: 2;
+    z-index: 2;  /* Ensures header content is above the overlay */
 }
 
 h1 {
@@ -52,15 +52,18 @@ h1 {
     margin: 10px 0;
     font-weight: 700;
     letter-spacing: 1.5px;
+    color: white; /* Ensure header text is white for visibility */
 }
 
 p {
     font-size: 1.2em;
     margin-bottom: 15px;
+    color: white; /* Ensure paragraph text is white for visibility */
 }
 
+/* Social Links */
 .social-links a {
-    color: #f0f0f0;
+    color: white; /* Ensure social links are white */
     margin: 0 15px;
     text-decoration: none;
     font-weight: 600;
@@ -92,7 +95,7 @@ p {
 }
 
 .navbar ul li a {
-    color: white;
+    color: white;  /* Ensure navbar links are white */
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
@@ -182,10 +185,22 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    z-index: 3; /* Ensures footer is above other content */
 }
 
 footer p {
     font-size: 1em;
+}
+
+/* Ensure links inside .header-content are clickable */
+.header-content a {
+    color: #00bcd4; /* Link color */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.header-content a:hover {
+    text-decoration: underline;
 }
 
 /* Responsive Styles */
