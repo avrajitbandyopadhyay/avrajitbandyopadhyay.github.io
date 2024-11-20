@@ -45,6 +45,7 @@ body {
 .header-content {
     position: relative;
     z-index: 2;  /* Ensures header content is above the overlay */
+    color: white;  /* Ensures the text in header content is white */
 }
 
 h1 {
@@ -59,6 +60,14 @@ p {
     font-size: 1.2em;
     margin-bottom: 15px;
     color: white; /* Ensure paragraph text is white for visibility */
+}
+
+/* Additional Text Styling (Your name and interests) */
+.header-content .name, .header-content .interests {
+    color: white;  /* Make sure the name and interests are white */
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 5px 0;
 }
 
 /* Social Links */
