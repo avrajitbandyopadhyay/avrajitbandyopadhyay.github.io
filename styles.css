@@ -147,6 +147,7 @@ p {
     font-size: 1.1em;
     margin-bottom: 20px;
     line-height: 1.7;
+    color: black; /* Ensure paragraph text is black for visibility */
 }
 
 ul {
