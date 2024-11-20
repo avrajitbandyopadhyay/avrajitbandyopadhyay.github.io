@@ -62,6 +62,14 @@ p {
     color: black; /* Ensure paragraph text is black for visibility */
 }
 
+h2 {
+    font-size: 3em;
+    margin: 10px 0;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: white; /* Ensure header text is white for visibility */
+}
+
 /* Additional Text Styling (Your name and interests) */
 .header-content .name, .header-content .interests {
     color: white;  /* Make sure the name and interests are white */
